@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial scale=1.0">
+<title>image gallery</title>
+<style>
+body{
+	fond-family:Arial,sans-serif;
+	background-color:#f4f4f4;
+	color:#333;
+	text-align:center;
+	margin:20px;
+}
+h1{
+	color:#333;
+}
+gallery{
+	display:flexs;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.gallery-item{
+	margin:10px;
+}
+.gallery-item img{
+	width:100px;
+	height:100px;
+	border-radius:5px;
+	cursor:pointer;
+	transition:transform 0.3 s;
+}
+.gallery-item img:hover{
+	transform:scale(1.1);
+}
+</style>
+</head>
+<body>
+	<h1>image gallery</h1>
+	<div class="gallery">
+		<div class ="gallery-item">
+			<a href="C:\Users\ADMIN\Desktop\flower.jpeg"target="_blank">
+				<img src="flower.jpeg"alt="image1">
+			</a>
+		</div>
+		<div class="gallery-item">
+			<a href="C:\Users\ADMIN\Desktop\Doraemon.jpeg"target="_blank">
+				<img src="Doraemon.jpeg"alt="image2">
+			</a>
+		</div>
+		<div class="gallery-item">
+			<a href="C:\Users\ADMIN\Desktop\lion.jpeg"target="_blank">
+				<img src="lion.jpeg"alt="image3">
+			</a>
+		</div>
+		<div class="gallery-item">
+			<a href="C:\Users\ADMIN\Desktop\beach.jpeg"target="_blank">
+				<img src="beach.jpeg"alt="image4">
+			</a>
+		</div>
+	</div>
+</body>
+</html>
